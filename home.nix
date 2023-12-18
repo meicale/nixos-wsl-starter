@@ -26,6 +26,7 @@
     mosh
     neovim
     procs
+    proxychains-ng
     ripgrep
     sd
     tmux
@@ -33,6 +34,7 @@
     unzip
     vim
     wget
+    zellij
     zip
   ];
 
@@ -239,6 +241,7 @@ in {
         pbcopy = "/mnt/c/Windows/System32/clip.exe";
         pbpaste = "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe -command 'Get-Clipboard'";
         explorer = "/mnt/c/Windows/explorer.exe";
+        code = "/mnt/p/VSCode/code.exe";
       };
 
       envExtra = ''

@@ -7,12 +7,15 @@
   inputs.home-manager.url = "github:nix-community/home-manager/release-23.11";
   inputs.home-manager.inputs.nixpkgs.follows = "nixpkgs";
 
-  inputs.nur.url = "github:nix-community/NUR";
+  # inputs.nur.url = "github:nix-community/NUR";
+  inputs.nur.url = "git+https://githubfast.com/nix-community/NUR";
 
-  inputs.nixos-wsl.url = "github:nix-community/NixOS-WSL";
+  # inputs.nixos-wsl.url = "github:nix-community/NixOS-WSL";
+  inputs.nixos-wsl.url = "git+https://githubfast.com/nix-community/NixOS-WSL";
   inputs.nixos-wsl.inputs.nixpkgs.follows = "nixpkgs";
 
-  inputs.nix-index-database.url = "github:Mic92/nix-index-database";
+  # inputs.nix-index-database.url = "github:Mic92/nix-index-database";
+  inputs.nix-index-database.url = "git+https://githubfast.com/Mic92/nix-index-database";
   inputs.nix-index-database.inputs.nixpkgs.follows = "nixpkgs";
 
   outputs = inputs:
@@ -76,7 +79,7 @@
 
       nixosConfigurations.nixos = mkNixosConfiguration {
         hostname = "nixos";
-        username = "nixos"; # FIXME: replace with your own username!
+        username = "bill"; # FIXME: replace with your own username!
         modules = [
           nixos-wsl.nixosModules.wsl
           ./wsl.nix

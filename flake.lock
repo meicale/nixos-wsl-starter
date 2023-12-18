@@ -62,17 +62,17 @@
         ]
       },
       "locked": {
-        "lastModified": 1700968077,
-        "narHash": "sha256-Lax+2g7G3Fe+ckMrHLYTl+97unbmNDmN1qS9MLBkxr4=",
-        "owner": "Mic92",
-        "repo": "nix-index-database",
-        "rev": "bd3aec0ecb0fdde863a7ed2c6caa220c47e22c07",
-        "type": "github"
+        "lastModified": 1702864432,
+        "narHash": "sha256-xR5Igg2hnm979W3YgMDrSjErHFhHo4rbMboF6DC0mbc=",
+        "ref": "refs/heads/main",
+        "rev": "4605ccd764fac78b9e4b5b058698cb9f04430b91",
+        "revCount": 256,
+        "type": "git",
+        "url": "https://githubfast.com/Mic92/nix-index-database"
       },
       "original": {
-        "owner": "Mic92",
-        "repo": "nix-index-database",
-        "type": "github"
+        "type": "git",
+        "url": "https://githubfast.com/Mic92/nix-index-database"
       }
     },
     "nixos-wsl": {
@@ -84,17 +84,17 @@
         ]
       },
       "locked": {
-        "lastModified": 1701387264,
-        "narHash": "sha256-uGZycEJqOZSYvpmoFuyDrboe5e1t0F/HB9r7HsWgssc=",
-        "owner": "nix-community",
-        "repo": "NixOS-WSL",
-        "rev": "1a50ab3fe98934d8f109f05528874c9ab324707b",
-        "type": "github"
+        "lastModified": 1702867085,
+        "narHash": "sha256-zcKtsexiTURppa7styWbMvrFiIYfoY5mBtWeIlh7YqU=",
+        "ref": "refs/heads/main",
+        "rev": "86f3b26038b36603f51e260979a09e9c659415e9",
+        "revCount": 339,
+        "type": "git",
+        "url": "https://githubfast.com/nix-community/NixOS-WSL"
       },
       "original": {
-        "owner": "nix-community",
-        "repo": "NixOS-WSL",
-        "type": "github"
+        "type": "git",
+        "url": "https://githubfast.com/nix-community/NixOS-WSL"
       }
     },
     "nixpkgs": {
@@ -131,17 +131,17 @@
     },
     "nur": {
       "locked": {
-        "lastModified": 1701387472,
-        "narHash": "sha256-CTCMEV9iCvS+DyBFVB9vJTIH1qsHh6BkdlQbyNM1owk=",
-        "owner": "nix-community",
-        "repo": "NUR",
-        "rev": "38a400bdf1c847cb7b7ff0fc9c13492e6dfd2708",
-        "type": "github"
+        "lastModified": 1702865044,
+        "narHash": "sha256-O0OI7hrcnR+XpDk+44SST4nMlezJII8zBQEJXj2tPx8=",
+        "ref": "refs/heads/master",
+        "rev": "a991dad3055d970d8ebd5234851577a2a81452b2",
+        "revCount": 19359,
+        "type": "git",
+        "url": "https://githubfast.com/nix-community/NUR"
       },
       "original": {
-        "owner": "nix-community",
-        "repo": "NUR",
-        "type": "github"
+        "type": "git",
+        "url": "https://githubfast.com/nix-community/NUR"
       }
     },
     "root": {
